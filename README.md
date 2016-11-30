@@ -14,8 +14,13 @@ compare-object (get-content file1.txt) (get-content file2.txt))
 ## sort
 
 ```powershell
-get-content file.txt | sort-object | get-unique
+get-content file.txt | sort-object
 ```
 
 
+
 ## uniq
+
+```powershell
+get-content file.txt | sort-object | get-unique
+```
